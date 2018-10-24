@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Form-Add{
+  background-color: #9686F7;
+  width: 100%;
+  height: 100%;
+}
+.form-add{
+  padding: 8vh 0;
+}
+.Loggin-h2{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin: 5% 0;
+}
+.Loggin-p{
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  margin: 4% 0;
+}
+.login-link,.login-register{
+  border-bottom: 2px solid white;
+  padding-bottom: 7px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+}
+.login-register{
+  color: #C3BAFA !important;
+  border-bottom-color: #C3BAFA !important; 
+}
+.login-link:hover,.login-register:hover{
+  text-decoration: none;
+  color: white;
+}
+.logo-dark-img{
+  display:block;
+  height: 4vh;
+  margin: 0 auto 10%;
+}
+button{
+ border:none;
+ background-color: #5CD28E;
+ padding: 5px 28px;
+ color: white;
+ border-radius: 4px;
+  margin: 3% 0 3% 14%;
+}
+.forget{
+  color: white;
+  text-decoration: none;
+  margin-left: 3%;
+}
+.forget:hover{
+  text-decoration: none;
+  color: white;
+}
+span{
+  color: #C3BAFA;
+}
+.footer{
+  padding: 9%;
+}
+.footer a{
+  color: white;
+  margin: 0 10px;
+}
+.footer a:hover{
+  text-decoration: none;
+}
+
+/*responsive hissesi*/
+  @media only screen and (max-width: 576px) {
+    span{
+      font-size: 10px;
+    }
+    .footer{
+      padding: 9% 1%;
+    }
+    .footer a{
+      margin: 0 2px;
+      font-size: 10px;
+    }
+    button{
+      padding: 3px 25px;
+      margin: 3% 0 3% 8%;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+  span{
+    font-size: 15px;
+  }
+  .footer{
+    padding: 9% 5%;
+  }
+  .footer a{
+    margin: 0 2px;
+    font-size: 15px;
+  }
+  button{
+    padding: 3px 25px;
+    margin: 3% 0 3% 8%;
+  }
+}
